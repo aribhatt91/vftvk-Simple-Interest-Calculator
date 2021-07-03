@@ -1,4 +1,69 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:#000;
+    min-height: 100vh;
 
+}
+h1{color:grey;}
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article.card {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 16px;
+    max-width: 90%;
+    width: 450px;
+}
+fieldset {
+    outline: none;
+    border: none;
+    max-width: 300px;
+    margin: auto;
+}
+.form-group, .result {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+.result > p {
+    margin: 0;
+}
+label {
+    width: 120px;
+}
+.range-input-group {
+    display: inline-flex;
+    align-items: center;
+}
+.range-value {
+    min-width: 45px;
+}
+p.company-name {
+    margin-bottom: 0;
+}
+p.company-name span {
+    margin-right: 4px;
+}
+.highlight {
+    background-color: yellow;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
+@media screen and (min-width: 768px) {
+    .card h1 {
+        font-size: 2rem;;
+    }
+}
