@@ -45,7 +45,7 @@ label {
     min-width: 45px;
 }
 p.company-name {
-    margin-bottom: 0;
+    margin: 0;
 }
 p.company-name span {
     margin-right: 4px;
